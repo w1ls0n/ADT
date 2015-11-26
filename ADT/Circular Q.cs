@@ -17,7 +17,7 @@ namespace ADT
         //constructor
         public CircularQ(int size)
         {
-            size = size;
+            size = size; // here
             queue = new int[size];
             head = 0;
             tail = 0;
